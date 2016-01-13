@@ -1,0 +1,14 @@
+//Node scaffolding 
+//This is the  bare minimum code needed to create a router in node. Good practice to pass an object to function 
+//as it can be invoked
+var express = require('express');
+var adminRouter = express.Router();
+
+var router = function(obj){
+  
+	
+	
+	return adminRouter;
+}
+
+module.exports = router;
