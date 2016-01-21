@@ -1,0 +1,9 @@
+Functions stored in objects are called methods
+box["size"] = {
+    "height" : 10,
+    "width" : 3
+    
+}
+box.area = function() {
+  return box.size.height * box.size.width
+}
