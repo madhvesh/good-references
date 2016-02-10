@@ -7,8 +7,8 @@ var c = String( a );    // explicit coercion
 
 3: Truthy and Falsy values
 All of JavaScript's values can be divided into two categories:
- a: values that will become false if coerced to boolean
- b: everything else (which will obviously become true)
+ - [first] values that will become false if coerced to boolean
+ - [sednon] everything else (which will obviously become true)
 
 We get the following as the so-called "falsy" values list:
 
