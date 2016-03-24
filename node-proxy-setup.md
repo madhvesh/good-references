@@ -46,11 +46,12 @@ Install git
 Configure proxy for git
 * git config --global http.proxy http://<username>:<password>@<domain>:<port>
 Try to clone the repo with
-git clone <repo>.git if you get this error
+* git clone <repo>.git 
+if you get this error
 fatal: unable to access 'https://github.com/<repo>.git/': SSL certificate problem: self signed certificate in certificate chain
 
 Try
-git config http.sslVerify false
+* git config http.sslVerify false
 
 Changelog
 ---------
